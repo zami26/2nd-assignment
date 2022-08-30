@@ -134,7 +134,7 @@ body {
 }
 
 hr {
-    width: 1320px;
+    width: 80%;
 
 }
 
@@ -194,6 +194,16 @@ hr {
         width: 100%;
     }
 
+    .menu {
+        background-color: white;
+        display: flex;
+
+    }
+
+    .menu-item {
+        border: 1px solid lightgray;
+    }
+
     .blog-items {
         margin-top: 20px;
         display: grid;
@@ -205,6 +215,48 @@ hr {
     }
 
     hr {
-        width: 780px;
+        width: 80%;
+    }
+}
+
+/* responsive for phone */
+@media screen and (max-width:390px) {
+    .header-div {
+        height: 492px;
+        width: 100%;
+        display: block;
+        text-align: center;
+
+    }
+
+
+
+    #hidden {
+        visibility: hidden;
+    }
+
+    #head-img {
+        height: 245px;
+        width: 233px;
+        ;
+    }
+
+    .blog-items {
+        display: grid;
+        grid-template-columns: repeat(1, 320px);
+    }
+
+    hr {
+        width: 80%;
+    }
+
+    .footer {
+        height: 410px;
+    }
+
+    .footer-text {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
     }
 }

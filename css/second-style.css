@@ -34,3 +34,10 @@
         visibility: visible;
     }
 }
+
+@media screen and (max-width:390px) {
+    .blog-items {
+        display: grid;
+        grid-template-columns: repeat(1, 320px);
+    }
+}
