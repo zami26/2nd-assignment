@@ -75,6 +75,8 @@ body {
     justify-content: center;
 }
 
+
+
 .blog-img {
     height: 362px;
     width: 312px;
@@ -109,4 +111,43 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 312px);
     gap: 30px;
+}
+
+/* footer section */
+.footer {
+    height: 344px;
+    background-color: black;
+    margin-top: 150px;
+}
+
+.footer-heading {
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+hr {
+    width: 1320px;
+
+}
+
+.footer-icon-div {
+    text-align: center;
+}
+
+.footer-icon {
+    color: white;
+    font-size: 40px;
+    margin: 20px;
+}
+
+
+.footer-text {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+
+    margin-top: 100px;
 }

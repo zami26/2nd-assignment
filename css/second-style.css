@@ -1,0 +1,15 @@
+.upcoming-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+
+}
+
+.upcoming-items {
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+
+.upcoming-text {
+    text-align: center;
+}
