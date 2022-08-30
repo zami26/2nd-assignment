@@ -1,0 +1,41 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header-div {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    align-items: flex-end;
+    background-color: black;
+    width: 1321px;
+    height: 664px;
+    border-radius: 30px;
+    margin-left: 5px;
+}
+
+.text-side {
+    margin: 100px;
+}
+
+#heading {
+    color: white;
+    font-size: 70px;
+}
+
+#head-text {
+    color: white;
+}
+
+.button {
+    color: whitesmoke;
+    font-weight: bold;
+    background-color: red;
+    padding: 16px 25px;
+    border-radius: 5px;
+}
+
+#head-img {
+    height: 581px;
+    width: 613px;
+
+}
